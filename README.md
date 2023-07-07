@@ -1,4 +1,6 @@
-#CatFact is a simple fun iOS app that generates random facts about cats with a single button click. This app allows users to explore fascinating cat facts, mark them as favorites, and view their favorite facts in a convenient UITableView. 
+# CatFact
+
+CatFact is a simple fun iOS app that generates random facts about cats with a single button click. This app allows users to explore fascinating cat facts, mark them as favorites, and view their favorite facts in a convenient UITableView. 
 
 ## Features
 
@@ -18,10 +20,9 @@
 ## Screenshots
 
 ![App Banner](catfact/AppScreenshot/banner.png)
-![Lauch Screen](catfact/AppScreenshot/lunchScreen.png)
-![Home](catfact/AppScreenshot/home.png)
-![Favorite List](catfact/AppScreenshot/favList.png)
-
+<img src="catfact/AppScreenshot/lunchScreen.png" alt="Lauch Screen" width="720" height="1280">
+<img src="catfact/AppScreenshot/home.png" alt="Home" width="720" height="1280">
+<img src="catfact/AppScreenshot/favList.png" alt="Favorite List" width="720" height="1280">
 
 ## How to Use
 
