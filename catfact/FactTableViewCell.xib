@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="factCell" rowHeight="280" id="KGk-i7-Jjw" customClass="FactTableViewCell" customModule="catfact" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="138"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="321" height="138"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qkn-z8-4rX">
+                        <rect key="frame" x="20" y="59.000000000000007" width="281" height="20.333333333333336"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat-paw-bg" translatesAutoresizingMaskIntoConstraints="NO" id="5ge-gn-dEe">
+                        <rect key="frame" x="251" y="68" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="6uz-3f-OVx"/>
+                            <constraint firstAttribute="width" constant="60" id="Amk-UY-vmk"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qkn-z8-4rX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="1eC-9s-yWz"/>
+                    <constraint firstItem="qkn-z8-4rX" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="4Uv-HY-zEb"/>
+                    <constraint firstAttribute="trailing" secondItem="qkn-z8-4rX" secondAttribute="trailing" constant="20" id="7Hm-gj-1GS"/>
+                    <constraint firstItem="qkn-z8-4rX" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="LqA-fd-Dij"/>
+                    <constraint firstAttribute="bottom" secondItem="5ge-gn-dEe" secondAttribute="bottom" constant="10" id="VeT-LM-OoV"/>
+                    <constraint firstAttribute="trailing" secondItem="5ge-gn-dEe" secondAttribute="trailing" constant="10" id="qpn-2b-2Sk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="factStringLabel" destination="qkn-z8-4rX" id="VRn-Rh-a56"/>
+            </connections>
+            <point key="canvasLocation" x="139.69465648854961" y="43.661971830985919"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cat-paw-bg" width="488" height="511"/>
+    </resources>
+</document>
