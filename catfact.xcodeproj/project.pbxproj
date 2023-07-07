@@ -59,7 +59,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9C9C52762A583BC100A2FF91 /* App Screenshot */ = {
+		9C9C52762A583BC100A2FF91 /* AppScreenshot */ = {
 			isa = PBXGroup;
 			children = (
 				9C9C52792A583C0600A2FF91 /* lunchScreen.png */,
@@ -67,7 +67,7 @@
 				9C9C52772A583C0600A2FF91 /* home.png */,
 				9C9C527F2A583D0D00A2FF91 /* favList.png */,
 			);
-			path = "App Screenshot";
+			path = AppScreenshot;
 			sourceTree = "<group>";
 		};
 		9CB88FDA29F7B70200B3657C = {
@@ -89,7 +89,7 @@
 		9CB88FE529F7B70200B3657C /* catfact */ = {
 			isa = PBXGroup;
 			children = (
-				9C9C52762A583BC100A2FF91 /* App Screenshot */,
+				9C9C52762A583BC100A2FF91 /* AppScreenshot */,
 				9CB88FE629F7B70200B3657C /* AppDelegate.swift */,
 				9CB88FFC29F7F46A00B3657C /* APIDataModel.swift */,
 				9CB88FFA29F7F30D00B3657C /* NetworkManager.swift */,
