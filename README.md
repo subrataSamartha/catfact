@@ -20,9 +20,9 @@ CatFact is a simple fun iOS app that generates random facts about cats with a si
 ## Screenshots
 
 ![App Banner](catfact/AppScreenshot/banner.png)
-<img src="catfact/AppScreenshot/lunchScreen.png" alt="Lauch Screen" width="720" height="1280">
-<img src="catfact/AppScreenshot/home.png" alt="Home" width="720" height="1280">
-<img src="catfact/AppScreenshot/favList.png" alt="Favorite List" width="720" height="1280">
+<img src="catfact/AppScreenshot/lunchScreen.png" alt="Lauch Screen" width="393" height="852">
+<img src="catfact/AppScreenshot/home.png" alt="Home" width="393" height="852">
+<img src="catfact/AppScreenshot/favList.png" alt="Favorite List" width="393" height="852">
 
 ## How to Use
 
