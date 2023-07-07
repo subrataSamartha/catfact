@@ -37,8 +37,6 @@ CatFact is a simple fun iOS app that generates random facts about cats with a si
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact the project maintainer:
-
 [Subrata Samartha](mailto:subratasamartha@gmail.com)
 
-Thank you for your interest in CatFact! We hope you enjoy using the app and learning fascinating facts about cats.
+Thank you for your interest in CatFact! I hope you enjoy it.
